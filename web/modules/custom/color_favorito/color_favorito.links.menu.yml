@@ -1,0 +1,6 @@
+color_favorito:
+    title: "Agregar color favorito"
+    route_name: color_favorito.configuration_form
+    description: "Configurar modulo de color favorito"
+    parent: system.admin_config_system
+    weight: 99
