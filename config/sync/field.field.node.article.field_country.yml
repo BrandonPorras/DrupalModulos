@@ -1,0 +1,21 @@
+uuid: 807ba3d4-1c80-451f-8cc7-04a5ddebb5f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country
+    - node.type.article
+  module:
+    - country_field
+id: node.article.field_country
+field_name: field_country
+entity_type: node
+bundle: article
+label: country
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: country_field_type

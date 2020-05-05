@@ -1,0 +1,20 @@
+uuid: a0163d43-ca10-4775-a79e-9a2b9e759643
+langcode: en
+status: true
+dependencies:
+  module:
+    - color_favorito
+  theme:
+    - bartik
+id: bloquedeinformaciondelcolorfavorito
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: information_block
+settings:
+  id: information_block
+  label: 'Bloque de informacion del color favorito'
+  provider: color_favorito
+  label_display: visible
+visibility: {  }

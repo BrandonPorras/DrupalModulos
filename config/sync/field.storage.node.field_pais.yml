@@ -1,0 +1,19 @@
+uuid: 9ee3e4bb-1337-473f-a1d3-24aa8e10a32e
+langcode: en
+status: true
+dependencies:
+  module:
+    - country_field
+    - node
+id: node.field_pais
+field_name: field_pais
+entity_type: node
+type: country_field_type
+settings: {  }
+module: country_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

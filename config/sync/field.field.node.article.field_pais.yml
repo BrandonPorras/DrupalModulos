@@ -1,0 +1,23 @@
+uuid: 69008918-5aa6-4511-bdff-0e97daced286
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pais
+    - node.type.article
+  module:
+    - country_field
+id: node.article.field_pais
+field_name: field_pais
+entity_type: node
+bundle: article
+label: pais
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: CR
+default_value_callback: ''
+settings: {  }
+field_type: country_field_type

@@ -1,0 +1,21 @@
+uuid: ebc34887-4c4c-4b43-87ce-9077ce19306e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_countries
+    - node.type.article
+  module:
+    - country_field
+id: node.article.field_countries
+field_name: field_countries
+entity_type: node
+bundle: article
+label: countries
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: country_field_type

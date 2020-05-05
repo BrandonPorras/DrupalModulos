@@ -1,0 +1,14 @@
+uuid: 5f45260f-5653-400f-9598-b2d034f8463b
+name: colores
+mail: admin@colores.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
